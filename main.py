@@ -66,10 +66,6 @@ class App(ttk.Frame):
                                                                 self.entry_username.get(), self.entry_password.get()))
         self.button.grid(row=3, column=1, padx=0, pady=10, sticky="e")
 
-        self.entry_username.insert(0, 'root')
-        self.entry_password.insert(0, 'suhang123')
-        self.input_list.insert(INSERT, '43.139.14.82')
-
     def check(self, images_list, username, password):
         start = time.process_time_ns()
         # 中间写上代码块
